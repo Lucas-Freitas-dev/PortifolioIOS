@@ -320,6 +320,9 @@ h3{
     background: var(--color-white);
     box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
     border-radius: 20px;
+                                a{
+                                    color: white;
+                                }
 }
 .about-info p{
     text-align: center;
@@ -336,6 +339,10 @@ h3{
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
 /* ----- ABOUT / SKILLS BOX ----- */
